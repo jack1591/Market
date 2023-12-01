@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/TV"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:text="COOL MARKET"
+        android:textSize="50sp"
+        >
+    </TextView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:orientation="vertical"
+            android:id="@+id/RG_L"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/CB_L1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Яблочко"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/CB_L2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Грушка"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/CB_L3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Банан"></CheckBox>
+
+        </RadioGroup>
+      </LinearLayout>
+
+      <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:id="@+id/RG_R"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:id="@+id/CB_R1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Мясо"></CheckBox>
+
+            <CheckBox
+                android:id="@+id/CB_R2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Хлеб"></CheckBox>
+
+            <CheckBox
+                android:id="@+id/CB_R3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Молоко"></CheckBox>
+
+        </RadioGroup>
+      </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioGroup
+            android:orientation="horizontal"
+            android:id="@+id/RG"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <RadioButton
+        android:id="@+id/RB_S"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Самовывоз"></RadioButton>
+
+            <RadioButton
+        android:id="@+id/RB_K"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Курьером"></RadioButton>
+
+            <RadioButton
+        android:id="@+id/RB_D"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Дроном"></RadioButton>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/KOM"
+            android:layout_width = "match_parent"
+            android:layout_height = "50dp"
+            android:hint="Оставьте свой комментарий к заказу">
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <Button
+        android:id="@+id/Btn"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:text="Click"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/Clr"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Clear"></Button>
+    </LinearLayout>
+
+</LinearLayout>
